@@ -1,0 +1,66 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255) !important;
+    font-weight: 400;
+}
+#projectlist li{
+    list-style-type: none;
+} 
+#name{
+    justify-content: space-evenly;
+}
+#name h3{
+    text-align: center;
+    display:inline-block;
+    justify-content:center;
+    align-items: center;
+    align-content:center;
+}
+#portfolioimg{
+    margin-left:30%;
+}
+#phead {
+    background-color: black;
+    color:white;
+}
+#phead h1{
+    text-align:center;
+}
+#project1{
+    background-color: burlywood;
+}
+#p1{
+    margin-top: 5%;
+    margin-bottom:5%;
+}
+#p1text{
+    display:inline;
+    align-content:center;
+}
+@media only screen and (max-width:800px){
+    #p1{
+        margin-top: 50%;
+    }
+}
+#project2{
+    background-color: rgb(71, 71, 179);
+    color:white;
+}
+#p2text{
+    display:inline;
+    align-content: center;
+}
+#p2img{
+    margin-top:5%;
+    margin-bottom:5%;
+}
+#pr3{
+  background-color: red;  
+}
+#pr3text{
+    display:inline;
+    align-content: center;
+}
+#pr3img{
+    margin-top:5%;
+    margin-bottom:5%;
+}

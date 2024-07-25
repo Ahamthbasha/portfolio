@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>portfolio website</title>
+  </head>
+  <body>
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: blue;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/portfoliologo.png" class="img-fluid" alt="portfoliologo" width="180px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Me</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Education
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">school</a></li>
+                <li><a class="dropdown-item" href="#">college</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">experience</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Projects
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Zoo management system</a></li>
+                <li><a class="dropdown-item" href="#">Amazon clone</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Netflix clone</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Me</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--slider-->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/slider2.png" class="img-fluid" class="d-block w-100" width="100%" alt="mern">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!--container starting-->
+    <div class="container-fluid">
+      <!--Naming section-->
+      <hr>
+      <div class="row " id="name">
+        <div class="col-5">
+          <img id="portfolioimg" src="assets/portfolio pic.jpeg" width="25%" class="img-fluid" alt="pic">
+        </div>
+      <div class="col-5">
+      <h3 class="display-6 text-center mt-5 mb-3">MY NAME IS<br>
+      AHAMATHBASHA F</h3>
+      </div>
+      </div>
+      <hr>
+      <!--qualifications-->
+      <div class="row justify-content-evenly pt-3 pb-3">
+      <div class="col-md-3 text-center mt-5">
+        <h1><i class="fa-solid fa-school text-primary"></i></h1>
+        <h5>School</h5>
+        <p>Ideal Higher Secondary School<br>
+           Erode.<br>
+           percentage:75%<br>
+           Swami venkateswara matriculation school<br>
+           kandhapalayam.<br>
+           percentage:80%</p>
+      </div>
+      <div class="col-md-3 text-center mt-5">
+      <h1><i class="fa-solid fa-graduation-cap text-danger"></i></h1>
+      <h5>College</h5>
+      <p>Shanmuga Industries Arts And Science College<br>
+         Tiruvannamalai.<br>
+         percentage:90%</p>
+      </div>
+      <div class="col-md-3 text-center mt-5" id="projectlist">
+      <h1><i class="fa-solid fa-list-check text-success"></i></h1>
+      <h5>Projects</h5>
+      <p>During College Final Year:</p>
+      <ul>
+        <li>Zoo Management System</li>
+      </ul>
+      <p>After Joining Brototype:By using HTML and CSS Projects</p>
+      <ul>
+        <li>Amazon Clone</li>
+        <li>Netflix Clone</li>
+      </ul>
+      </div>
+      </div>
+      <!--Break section-->
+      <hr>
+      <!--percentage in range wise section-->
+      <div class="row justify-content-evenly pt-3 pb-5">
+      <div class="col-md-5 pt-3">
+      <img src="assets/growthimages.png" class="img-fluid" alt="projectimage">
+      </div>
+      <div class="col-md-5 pt-3">
+        <h5 class="mt-5">Tenth Standard Percentage:80%</h5>
+        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-success" style="width: 80%"></div>
+        </div>
+        <h5 class="mt-5">Twelfth Standard Percentage:75%</h5>
+        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-info" style="width: 75%"></div>
+        </div>
+        <h5 class="mt-5">College Percentage:90%</h5>
+        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-warning" style="width: 90%"></div>
+        </div>
+        <h5 class="mt-5">Experience:1%</h5>
+        <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-danger" style="width: 1%"></div>
+        </div>
+      </div>
+      </div>
+      <!--project heading-->
+      <div class="row" id="phead">
+        <div class="col-12">
+          <h1>Projects</h1>
+        </div>
+      </div>
+      <!--project section 1-->
+      <div class="row justify-content-evenly" id="project1">
+      <div class="col-5">
+        <img id="p1" src="assets/zoo-management-software.jpg" class="img-fluid" alt="college final sem project">
+      </div>
+      <div class="col-5" id="p1text">
+        <h2>1.Zoo Management System</h2>
+        <p>This project describes about the maintenance of the zoo.<br>
+          It covers all kind of work starting from animal maintenance to ticket maintenance.<br>
+          Here we categorize tickets into two parts.Foreign tickets and Indian tickets prices also be different</p>
+      </div>
+      <div>
+        <!--project section2-->
+        <div class="row justify-content-evenly" id="project2">
+          <div class="col-5" id="p2text">
+            <h2>2.Amazon clone based on HTML and CSS</h2>
+            <P>This project is like a home page i built by watching some tutorials.<br>
+            I followed apna college and technical thappa to learn html and css.<br>
+            I used Apna college Amazon clone to make it and some extra changes also done by me.</P>
+          </div>
+          <div class="col-5">
+            <img id="p2img" src="assets/amazonclone.png" class="img-fluid" alt="amazonclone">
+          </div>
+        </div>
+        <!--project section3-->
+        <div class="row justify-content-evenly" id="pr3">
+          <div class="col-5" id="pr3img">
+            <img src="assets/netflixclone.jpg" class="img-fluid" alt="netflixclone">
+          </div>
+          <div class="col-5" id="pr3text">
+            <h2>3.Netflix clone based on HTML and CSS</h2>
+            <p>This project is like a home page which was build by me.<br>
+               It has some flaws I accept it and it wont be really very attractive.<br>
+              But if you visit it.It will be decent </p>
+          </div>
+        </div>
+      <!--contact me-->
+      <div class="row justify-content-evenly pt-2 pb-5" style="background-color: #f1f1f1">
+        <div class="col-md-5 mt-5">
+          <h3 class="mb-5">Contact Me</h3>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="name" aria-describedby="namingsection">
+              <div id="name" class="form-text">Enter your username</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="contactno" class="form-label">Contact Number</label>
+              <input type="number" class="form-control" id="contactno">
+              <div id="contactno">Enter your contact no</div>
+            </div>
+            <button type="submit" class="btn btn-danger">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-5 mt-5">
+          <h3 class="mb-5">Address</h3>
+          <p>3/566 nadu street,<br>
+            melsolankuppam village,<br>
+            Tiruvannamalai district.<br>
+            <i class="fa-solid fa-phone"></i>:7845217086</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62385.7347296232!2d79.02805267683516!3d12.240937612654637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bacc0852cd3d6cd%3A0x74002b16e5bac856!2sTiruvannamalai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1721553954336!5m2!1sen!2sin" style="width:100%;" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </p>
+        </div>
+      </div>
+      <!--FAQ-->
+      <div class="row justify-content-evenly pt-5 pb-5">
+      <div class="col-md-10">
+      <h3 class="text-center pb-4">FAQ</h3>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Phone no (or) Contact details
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+            <strong>7845217086</strong>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              E-mail Id
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>ahamathbashachristopher313786@gmail.com</strong> 
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              LinkedIn
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Soon I will create</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      <!--footer section-->
+      <div class="row justify-content-evenly bg-dark text-white pt-2 pb-5">
+        <div class="col-md-3 pt-4">
+          <h5 class="pb-2">MERN DEVELOPER</h5>
+          <ul>
+            <li>M For MongoDB</li>
+            <li>E For ExpressJS</li>
+            <li>R For ReactJs</li>
+            <li>N For NodeJs</li>
+          </ul>
+        </div>
+        <div class="col-md-3 pt-4">
+         <h5 class="pb-2">Important Links</h5>
+         <p>
+          <a href="#" class="link-light text-decoration-none">Home</a><br>
+          <a href="#" class="link-light text-decoration-none">About Me</a><br>
+          <a href="#" class="link-light text-decoration-none">Education</a><br>
+          <a href="#" class="link-light text-decoration-none">Contact Me</a><br>
+          <a href="#" class="link-light text-decoration-none">Projects</a><br>
+         </p>
+        </div>
+        <div class="col-md-3 pt-4">
+        <h5 class="pb-2">Address</h5>
+        <p>3/566 nadu street,<br>
+          melsolankuppam village,<br>
+          Tiruvannamalai district.<br>
+          <i class="fa-solid fa-phone"></i>:7845217086</p>
+        </div>
+      </div>
+      <!--copyright-->
+      <div class="row bg-secondary text-white text-center">
+        <div class="col-12">copyrights 2022 by AhamathBasha.All rights reserved</div>
+      </div>
+      <!--container end-->
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
